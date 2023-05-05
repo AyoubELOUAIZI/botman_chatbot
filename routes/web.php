@@ -19,3 +19,5 @@ Route::get('/', function () {
 
 Route::match(['get', 'post'], '/botman', [BotManController::class,'handle']);
 // Route::match(['get', 'post'], '/botman', 'BotManController@handle');
+//some notes here
+//I have made some chages in the vender botman also to keep in mind video:https://www.youtube.com/watch?v=F8mwFXovJUE&t=3s
