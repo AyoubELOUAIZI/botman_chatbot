@@ -1011,6 +1011,7 @@
     <!-- botman scripts -->
     <script>
     var botmanWidget = {
+        frameEndpoint: "/botman/chat",
         title: "AJICOD chatbot",
         aboutText: 'Powered by AJICOD⚡',
         aboutLink: "https://ajicod.com",
@@ -1018,7 +1019,8 @@
         placeholderText: "Ask me a question ...",
         mainColor: "#8C56CF",
         bubbleBackground: "#8C56CF",
-        background: '#ffffdf !important',
+        desktopHeight: "730",
+        // desktopWidth: "380px",
     };
     </script>
     <script src='https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js'></script>
